@@ -4,6 +4,7 @@ Passaggi Svolti
 
 Configurazione dell'IP della macchina attaccante (Kali Linux) a 192.168.11.111
 Configurazione dell'IP della macchina vittima (Metasploitable) a 192.168.11.112
+Usando il comando:sudo ifconfig eth0 192.168.11.1xx netmask 255.255.255.0
 
 Sfruttamento della Vulnerabilità:
 
