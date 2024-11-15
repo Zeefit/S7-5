@@ -22,6 +22,9 @@ Utilizzato i comandi ipconfig e route -n su Meterpreter per raccogliere informaz
 il comando route mostra la tabella di routing di rete del sistema. La tabella di routing contiene informazioni su come il sistema deve instradare i pacchetti IP verso le varie reti
 L'opzione -n fa in modo che il comando mostri l'output in formato numerico, evitando di risolvere gli indirizzi IP in nomi di host
 
+
+SPIEGAZIONE Exploit e HTTPDELAY:
+
 Cosa fa l'Exploit:
 Il modulo si collega a un servizio RMI vulnerabile (sulla porta 1099) e invia un payload Java dannoso. Questo payload viene eseguito dalla macchina vittima, aprendo una connessione di ritorno (reverse shell) verso la macchina dell'attaccante, usando una sessione Meterpreter
 
